@@ -1,24 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="974254e5-88a6-480b-a1c4-a2c1b4f6803f" name="Default Changelist" comment="" />
+    <list default="true" id="974254e5-88a6-480b-a1c4-a2c1b4f6803f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/controller/CounterController.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/CounterAppScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/ExamplesScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/Navigation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/Screen2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="32084d2b95be5169" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\projects\GetXDemo\Getx-demo\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1jJMwU6mpxK4KHNvGbGLXBD7kqB" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -34,5 +59,43 @@
       <updated>1603517979641</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1603541271862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603541271862" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1603541271861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603541271861" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1603541271861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603541271861" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1603541271862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603541271862" />
+    <state width="1323" height="152" key="GridCell.Tab.1.bottom" timestamp="1603541272116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603541272116" />
+    <state width="1323" height="152" key="GridCell.Tab.1.center" timestamp="1603541272116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603541272116" />
+    <state width="1323" height="152" key="GridCell.Tab.1.left" timestamp="1603541272116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603541272116" />
+    <state width="1323" height="152" key="GridCell.Tab.1.right" timestamp="1603541272116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="152" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603541272116" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603518494455">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603518494455" />
   </component>
 </project>
