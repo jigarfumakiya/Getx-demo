@@ -20,35 +20,35 @@ class NavigationScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          button1(),
+          screen2Button(),
           SizedBox(
             height: 10,
           ),
-          button2(),
+          dialogsButton(),
           SizedBox(
             height: 10,
           ),
-          button3(),
+          snackbarButton(),
         ],
       ),
     );
   }
 
-  Widget button1() {
+  Widget screen2Button() {
     return RaisedButton(
       onPressed: gotoScreen2,
       child: Text('Goto Screen 2'),
     );
   }
 
-  Widget button2() {
+  Widget dialogsButton() {
     return RaisedButton(
       onPressed: dialogs,
       child: Text('Dialogs'),
     );
   }
 
-  Widget button3() {
+  Widget snackbarButton() {
     return RaisedButton(
       onPressed: snackbarUtils,
       child: Text('Snackbar'),

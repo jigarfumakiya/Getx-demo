@@ -60,6 +60,6 @@ class ExamplesScreen extends StatelessWidget {
     Get.to(CounterAppScreen());
   }
   void _pushToNavigation() {
-    Get.to(NavigationScreen());
+    Get.to(NavigationScreen(),duration: Duration(milliseconds: 800),transition: Transition.rightToLeft);
   }
 }
