@@ -28,7 +28,6 @@ class ExamplesScreen extends StatelessWidget {
           SizedBox(height: 30),
           navigationButton(),
           SizedBox(height: 30),
-          // utilsButton()
         ],
       ),
     );
@@ -48,13 +47,6 @@ class ExamplesScreen extends StatelessWidget {
     );
   }
 
-  Widget utilsButton() {
-    return RaisedButton(
-      onPressed: _pushToDependenciesManger,
-      child: Text('Dependencies Manager'),
-    );
-  }
-
   //TODO: methods and utils
 
   void _pushToCounterApp() {
@@ -63,7 +55,5 @@ class ExamplesScreen extends StatelessWidget {
   void _pushToNavigation() {
     Get.to(NavigationScreen());
   }
-  void _pushToDependenciesManger() {
-    Get.to(DependenciesManger());
-  }
+
 }
