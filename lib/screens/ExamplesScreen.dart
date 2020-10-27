@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/screens/CounterAppScreen.dart';
+import 'package:flutter_app/screens/DependenciesManger.dart';
 import 'package:flutter_app/screens/Navigation.dart';
 import 'package:get/get.dart';
 
@@ -27,7 +28,7 @@ class ExamplesScreen extends StatelessWidget {
           SizedBox(height: 30),
           navigationButton(),
           SizedBox(height: 30),
-          utilsButton()
+          // utilsButton()
         ],
       ),
     );
@@ -49,8 +50,8 @@ class ExamplesScreen extends StatelessWidget {
 
   Widget utilsButton() {
     return RaisedButton(
-      onPressed: _pushToCounterApp,
-      child: Text('Utils'),
+      onPressed: _pushToDependenciesManger,
+      child: Text('Dependencies Manager'),
     );
   }
 
@@ -60,6 +61,9 @@ class ExamplesScreen extends StatelessWidget {
     Get.to(CounterAppScreen());
   }
   void _pushToNavigation() {
-    Get.to(NavigationScreen(),duration: Duration(milliseconds: 800),transition: Transition.rightToLeft);
+    Get.to(NavigationScreen());
+  }
+  void _pushToDependenciesManger() {
+    Get.to(DependenciesManger());
   }
 }
